@@ -1,5 +1,8 @@
-# :vulcan_salute:  Gabriela Schlemper
+## :vulcan_salute: I'm Gabriela Schlemper
 
-:fire:  HTML, CSS, JavaScript, ReactJS. 
+:fire: A front-end developer. Focused on HTML, CSS, JavaScript and ReactJS. 
 
-:email: gabschlemper@gmail.com
+:blue_heart: I am passionate about nature, adventures and good coffee.
+ 
+:mailbox: Talk to me: gabrielaschlemper@gmail.com
+
