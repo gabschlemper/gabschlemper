@@ -3,7 +3,6 @@ import { works } from '../../data';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Button from '../../components/Button';
-import Arrow from '../../images/Arrow.svg';
 
 const WorkDetail = ({ id }) => {
   const item = works[id];
@@ -55,7 +54,6 @@ const WorkDetail = ({ id }) => {
                 href="/"
                 class="text-black flex items-center gap-2 ml-4 hover:opacity-50"
               >
-                <img src={Arrow} />
                 Go Back
               </a>
             </div>
