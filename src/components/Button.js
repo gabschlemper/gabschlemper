@@ -1,5 +1,4 @@
 import React from 'react';
-import Arrow from '../images/Arrow.svg';
 
 const Button = ({ children, href, contained, uppercase }) => {
   return (
