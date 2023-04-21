@@ -1,7 +1,7 @@
 import React from 'react';
 import { socialMediaData } from '../data';
 
-function SocialMediaIcons({ horizontal, showMobile }) {
+const SocialMediaIcons = ({ horizontal, showMobile }) => {
   return (
     <div
       class={`gap-2  ${
@@ -10,13 +10,17 @@ function SocialMediaIcons({ horizontal, showMobile }) {
     >
       {socialMediaData.map((item) => {
         return (
-          <a href={item.link} class="hover:opacity-50 transition-opacity">
+          <a
+            key={item.title}
+            href={item.link}
+            class="hover:opacity-50 transition-opacity"
+          >
             <img src={item.img} alt={item.title} class="w-8" />
           </a>
         );
       })}
     </div>
   );
-}
+};
 
 export default SocialMediaIcons;

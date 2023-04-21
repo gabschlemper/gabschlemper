@@ -4,11 +4,11 @@ import Menu from '../images/menu.svg';
 
 const items = ['Home', 'About', 'Projects', 'Contact'];
 
-function Header() {
+const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <div>
+    <header>
       <div class="bg-grey-300 px-4 lg:px-14 py-6 bg-zinc-800 flex items-center justify-between">
         <div class="flex items-center gap-4">
           <img src={Logo} alt="logo" class="w-8" />
@@ -16,14 +16,18 @@ function Header() {
         </div>
         <div class="hidden lg:block">
           <ul class="flex gap-6 ">
-            {items.map((item) => (
-              <li
-                key={item}
-                class="hover:opacity-50 transition-opacity cursor-pointer"
-              >
-                {item}
-              </li>
-            ))}
+            <li class="hover:opacity-50 transition-opacity cursor-pointer">
+              <a href="/home">Home</a>
+            </li>
+            <li class="hover:opacity-50 transition-opacity cursor-pointer	">
+              <a href="/#about">About</a>
+            </li>
+            <li class="hover:opacity-50 transition-opacity cursor-pointer	">
+              <a href="/#projects">Projects</a>
+            </li>
+            <li class="hover:opacity-50 transition-opacity cursor-pointer	">
+              <a href="/#contact">Contact</a>
+            </li>
           </ul>
         </div>
 
@@ -48,7 +52,8 @@ function Header() {
           </ul>
         </div>
       ) : null}
-    </div>
+    </header>
   );
-}
+};
+
 export default Header;

@@ -2,9 +2,9 @@ import React from 'react';
 import Logo from '../images/logo.svg';
 import Images from './Images';
 
-function About() {
+const About = () => {
   return (
-    <div class="bg-grey-300 px-4 lg:px-14 py-14 ">
+    <section id="about" class="bg-grey-300 px-4 lg:px-14 py-14 scroll-smooth">
       <div>
         <div>
           <h1 class="text-2xl lg:text-3xl text-grey-100 uppercase text-center">
@@ -32,18 +32,18 @@ function About() {
               <div class="flex flex-col md:flex-row justify-between gap-8 lg:gap-32">
                 <span class="shrink text-grey-100">my stack</span>
                 <div class="flex grow justify-between">
-                  <img src={Images.jsIcon} class="w-8" />
-                  <img src={Images.htmlIcon} class="w-8" />
-                  <img src={Images.cssIcon} class="w-8" />
-                  <img src={Images.reactIcon} class="w-8" />
+                  <img src={Images.jsIcon} class="w-8" alt="JavaScript Icon" />
+                  <img src={Images.htmlIcon} class="w-8" alt="Html Icon" />
+                  <img src={Images.cssIcon} class="w-8" alt="Css Icon" />
+                  <img src={Images.reactIcon} class="w-8" alt="React Icon" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
-}
+};
 
 export default About;
