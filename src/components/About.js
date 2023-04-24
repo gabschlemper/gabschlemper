@@ -4,17 +4,17 @@ import Images from './Images';
 
 const About = () => {
   return (
-    <section id="about" class="bg-grey-300 px-4 lg:px-14 py-14">
+    <section id="about" className="bg-grey-300 px-4 lg:px-14 py-14">
       <div>
         <div>
-          <h1 class="text-2xl lg:text-3xl text-grey-100 uppercase text-center">
+          <h1 className="text-2xl lg:text-3xl text-grey-100 uppercase text-center">
             About Me
           </h1>
-          <div class="w-14 bg-grey-200 h-1 mt-2 mb-5 lg:mb-10 m-auto" />
-          <div class="flex gap-14 flex-col lg:flex-row text-center lg:text-left">
-            <img src={Logo} alt="logo" class="m-auto" />
+          <div className="w-14 bg-grey-200 h-1 mt-2 mb-5 lg:mb-10 m-auto" />
+          <div className="flex gap-14 flex-col lg:flex-row text-center lg:text-left">
+            <img src={Logo} alt="logo" className="m-auto" />
             <div>
-              <div class="leading-8 lg:leading-10 lg:text-lg flex flex-col justify-center items-start max-w-5xl pb-10">
+              <div className="leading-8 lg:leading-10 lg:text-lg flex flex-col justify-center items-start max-w-5xl pb-10">
                 <p>
                   Hi there!
                   <br />
@@ -29,13 +29,21 @@ const About = () => {
                   websites to life.
                 </p>
               </div>
-              <div class="flex flex-col md:flex-row justify-between gap-8 lg:gap-32">
-                <span class="shrink text-grey-100">my stack</span>
-                <div class="flex grow justify-between">
-                  <img src={Images.jsIcon} class="w-8" alt="JavaScript Icon" />
-                  <img src={Images.htmlIcon} class="w-8" alt="Html Icon" />
-                  <img src={Images.cssIcon} class="w-8" alt="Css Icon" />
-                  <img src={Images.reactIcon} class="w-8" alt="React Icon" />
+              <div className="flex flex-col md:flex-row justify-between gap-8 lg:gap-32">
+                <span className="shrink text-grey-100">my stack</span>
+                <div className="flex grow justify-between">
+                  <img
+                    src={Images.jsIcon}
+                    className="w-8"
+                    alt="JavaScript Icon"
+                  />
+                  <img src={Images.htmlIcon} className="w-8" alt="Html Icon" />
+                  <img src={Images.cssIcon} className="w-8" alt="Css Icon" />
+                  <img
+                    src={Images.reactIcon}
+                    className="w-8"
+                    alt="React Icon"
+                  />
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ const Button = ({ children, href, contained, uppercase }) => {
   return (
     <a
       href={href}
-      class={`${
+      className={`${
         contained
           ? `bg-white text-grey-100`
           : `bg-black border border-white border-solid`

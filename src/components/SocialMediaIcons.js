@@ -4,7 +4,7 @@ import { socialMediaData } from '../data';
 const SocialMediaIcons = ({ horizontal, showMobile }) => {
   return (
     <div
-      class={`gap-2  ${
+      className={`gap-2  ${
         showMobile ? 'flex mt-8 lg:mt-0' : 'hidden left-14 absolute lg:flex '
       } ${horizontal ? 'flex-row' : 'flex-col'}`}
     >
@@ -13,9 +13,9 @@ const SocialMediaIcons = ({ horizontal, showMobile }) => {
           <a
             key={item.title}
             href={item.link}
-            class="hover:opacity-50 transition-opacity"
+            className="hover:opacity-50 transition-opacity"
           >
-            <img src={item.img} alt={item.title} class="w-8" />
+            <img src={item.img} alt={item.title} className="w-8" />
           </a>
         );
       })}

@@ -7,48 +7,48 @@ const Header = () => {
 
   return (
     <header>
-      <div class="bg-grey-300 px-4 lg:px-14 py-6 bg-zinc-800 flex items-center justify-between">
-        <div class="flex items-center gap-4">
-          <img src={Logo} alt="logo" class="w-8" />
+      <div className="bg-grey-300 px-4 lg:px-14 py-6 bg-zinc-800 flex items-center justify-between">
+        <div className="flex items-center gap-4">
+          <img src={Logo} alt="logo" className="w-8" />
           <h2>Gabriela Schlemper</h2>
         </div>
-        <div class="hidden lg:block">
-          <ul class="flex gap-6 ">
-            <li class="hover:opacity-50 transition-opacity cursor-pointer">
-              <a href="#home">Home</a>
+        <div className="hidden lg:block">
+          <ul className="flex gap-6 ">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer">
+              <a href="/#home">Home</a>
             </li>
-            <li class="hover:opacity-50 transition-opacity cursor-pointer	">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer	">
               <a href="/#about">About</a>
             </li>
-            <li class="hover:opacity-50 transition-opacity cursor-pointer	">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer	">
               <a href="/#projects">Projects</a>
             </li>
-            <li class="hover:opacity-50 transition-opacity cursor-pointer	">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer	">
               <a href="/#contact">Contact</a>
             </li>
           </ul>
         </div>
 
         <button
-          class="flex items-center hover:text-gray-70 lg:hidden"
+          className="flex items-center hover:text-gray-70 lg:hidden"
           onClick={() => setOpenMenu(!openMenu)}
         >
           <img src={Menu} alt="menu icon" />
         </button>
       </div>
       {openMenu ? (
-        <div class="bg-black lg:hidden">
-          <ul class="flex flex-col w-100% items-center py-4">
-            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2">
-              <a href="/home">Home</a>
+        <div className="bg-black lg:hidden">
+          <ul className="flex flex-col w-100% items-center py-4">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer py-2">
+              <a href="/#home">Home</a>
             </li>
-            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2	">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer py-2	">
               <a href="/#about">About</a>
             </li>
-            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2	">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer py-2	">
               <a href="/#projects">Projects</a>
             </li>
-            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2	">
+            <li className="hover:opacity-50 transition-opacity cursor-pointer py-2	">
               <a href="/#contact">Contact</a>
             </li>
           </ul>
