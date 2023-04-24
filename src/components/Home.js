@@ -4,7 +4,10 @@ import SocialMediaIcons from './SocialMediaIcons';
 
 const Home = () => {
   return (
-    <section class="px-4 lg:px-14 py-6 lg:py-14 flex justify-center items-center h-[34rem] lg:h-[42rem]">
+    <section
+      id="home"
+      class="px-4 lg:px-14 py-6 lg:py-14 flex justify-center items-center h-[34rem] lg:h-[42rem]"
+    >
       <SocialMediaIcons />
       <div class="flex flex-col items-center">
         <h1 class="pb-5 lg:pb-10 text-center text-2xl lg:text-3xl uppercase">

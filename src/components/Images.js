@@ -8,6 +8,8 @@ const Images = {
   twitter: require('../images/twitter.svg').default,
   alanHarder: require('../images/alanharder.png').default,
   twitterProject: require('../images/twitter-project.png').default,
+  phoneIcon: require('../images/phone-icon.svg').default,
+  emailIcon: require('../images/email-icon.svg').default,
 };
 
 export default Images;

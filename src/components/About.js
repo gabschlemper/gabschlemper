@@ -4,7 +4,7 @@ import Images from './Images';
 
 const About = () => {
   return (
-    <section id="about" class="bg-grey-300 px-4 lg:px-14 py-14 scroll-smooth">
+    <section id="about" class="bg-grey-300 px-4 lg:px-14 py-14">
       <div>
         <div>
           <h1 class="text-2xl lg:text-3xl text-grey-100 uppercase text-center">
