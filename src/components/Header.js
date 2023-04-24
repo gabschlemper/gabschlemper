@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import Logo from '../images/logo.svg';
 import Menu from '../images/menu.svg';
 
-const items = ['Home', 'About', 'Projects', 'Contact'];
-
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -17,7 +15,7 @@ const Header = () => {
         <div class="hidden lg:block">
           <ul class="flex gap-6 ">
             <li class="hover:opacity-50 transition-opacity cursor-pointer">
-              <a href="/home">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li class="hover:opacity-50 transition-opacity cursor-pointer	">
               <a href="/#about">About</a>
@@ -41,14 +39,18 @@ const Header = () => {
       {openMenu ? (
         <div class="bg-black lg:hidden">
           <ul class="flex flex-col w-100% items-center py-4">
-            {items.map((item) => (
-              <li
-                key={item}
-                class="hover:opacity-50 transition-opacity cursor-pointer py-2"
-              >
-                {item}
-              </li>
-            ))}
+            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2">
+              <a href="/home">Home</a>
+            </li>
+            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2	">
+              <a href="/#about">About</a>
+            </li>
+            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2	">
+              <a href="/#projects">Projects</a>
+            </li>
+            <li class="hover:opacity-50 transition-opacity cursor-pointer py-2	">
+              <a href="/#contact">Contact</a>
+            </li>
           </ul>
         </div>
       ) : null}
