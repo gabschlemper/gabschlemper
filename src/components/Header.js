@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Logo from '../images/logo.svg';
-import Menu from '../images/menu.svg';
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -9,7 +7,7 @@ const Header = () => {
     <header>
       <div className="bg-grey-300 px-4 lg:px-14 py-6 bg-zinc-800 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <img src={Logo} alt="logo" className="w-8" />
+          <img src="/logo.svg" alt="logo" className="w-8" />
           <h2>Gabriela Schlemper</h2>
         </div>
         <div className="hidden lg:block">
@@ -33,7 +31,7 @@ const Header = () => {
           className="flex items-center hover:text-gray-70 lg:hidden"
           onClick={() => setOpenMenu(!openMenu)}
         >
-          <img src={Menu} alt="menu icon" />
+          <img src="menu-icon.svg" alt="menu icon" />
         </button>
       </div>
       {openMenu ? (

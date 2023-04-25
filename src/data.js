@@ -1,5 +1,3 @@
-import Images from './components/Images';
-
 export const works = {
   alanharder: {
     title: 'Alan Harder',
@@ -15,25 +13,25 @@ export const works = {
       'Dynamic routes for each blog post to allow for easy sharing and improved navigation',
       'Disqus integration for user comments and engagement',
     ],
-    img: Images.alanHarder,
+    img: '/alanharder.png',
     link: 'https://alanharder.ca/',
   },
- };
+};
 
 export const socialMediaData = [
   {
     title: 'GitHub',
-    img: Images.github,
+    img: '/github.svg',
     link: 'https://github.com/gabschlemper',
   },
   {
     title: 'Linkedin',
-    img: Images.linkedin,
+    img: '/linkedin.svg',
     link: 'https://www.linkedin.com/in/gabrielaschlemper/',
   },
   {
     title: 'Twitter',
-    img: Images.twitter,
+    img: '/twitter.svg',
     link: 'https://twitter.com/gabschlemper',
   },
 ];

@@ -1,6 +1,4 @@
 import React from 'react';
-import Logo from '../images/logo.svg';
-import Images from './Images';
 
 const About = () => {
   return (
@@ -12,7 +10,7 @@ const About = () => {
           </h1>
           <div className="w-14 bg-grey-200 h-1 mt-2 mb-5 lg:mb-10 m-auto" />
           <div className="flex gap-14 flex-col lg:flex-row text-center lg:text-left">
-            <img src={Logo} alt="logo" className="m-auto" />
+            <img src="/logo.svg" alt="logo" className="m-auto" />
             <div>
               <div className="leading-8 lg:leading-10 lg:text-lg flex flex-col justify-center items-start max-w-5xl pb-10">
                 <p>
@@ -33,17 +31,13 @@ const About = () => {
                 <span className="shrink text-grey-100">my stack</span>
                 <div className="flex grow justify-between">
                   <img
-                    src={Images.jsIcon}
+                    src="/js-icon.svg"
                     className="w-8"
                     alt="JavaScript Icon"
                   />
-                  <img src={Images.htmlIcon} className="w-8" alt="Html Icon" />
-                  <img src={Images.cssIcon} className="w-8" alt="Css Icon" />
-                  <img
-                    src={Images.reactIcon}
-                    className="w-8"
-                    alt="React Icon"
-                  />
+                  <img src="/html-icon.svg" className="w-8" alt="Html Icon" />
+                  <img src="/css-icon.svg" className="w-8" alt="Css Icon" />
+                  <img src="/react-icon.svg" className="w-8" alt="React Icon" />
                 </div>
               </div>
             </div>

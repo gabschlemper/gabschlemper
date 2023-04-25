@@ -1,5 +1,4 @@
 import React from 'react';
-import Images from './Images';
 import Button from './Button';
 import { works } from '../data';
 
@@ -22,7 +21,7 @@ const Projects = () => {
             >
               <img
                 alt="project overview"
-                src={Images.alanHarder}
+                src="/alanharder.png"
                 className="shrink md:max-w-xl"
               />
               <div className="grow">

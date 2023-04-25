@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Images from './Images';
 const Contact = () => {
   const [buttonText, setButtonText] = useState('gabschlemper@gmail.com');
 
@@ -22,7 +21,7 @@ const Contact = () => {
           Have a question or want to work together?
         </p>
         <div className="flex gap-3 justify-center">
-          <img src={Images.emailIcon} alt="icon" />
+          <img src="/email-icon.svg" alt="email icon" />
           <button
             className="text-grey-100 hover:underline hover:cursor-pointer hover:opacity-50 transition-all	"
             onClick={(copyClipboard, handleClick)}
@@ -31,7 +30,7 @@ const Contact = () => {
           </button>
         </div>
         <div className="flex gap-3 justify-center mt-3">
-          <img src={Images.phoneIcon} alt="icon" />
+          <img src="phone-icon.svg" alt="phone icon" />
           <div className="text-grey-100 hover:underline hover:cursor-pointer hover:opacity-50 transition-all	">
             +353 83 206 2152
           </div>

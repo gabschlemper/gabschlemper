@@ -8,7 +8,7 @@
   html {
     font-family: Roboto Mono, sans-serif;
     color: #fff;
-    background-image: url('../images/backgroung.png');
+    background-image: url('/backgroung.png');
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;
