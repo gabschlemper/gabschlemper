@@ -1,7 +1,3 @@
-## :vulcan_salute: I'm Gabriela Schlemper
+I'm Gabriela Schlemper, a detail-oriented full stack engineer passionate about bridging design and engineering.
 
-:fire: A front-end developer. Focused on HTML, CSS, Vue.JS and ReactJS.
-
-:blue_heart: I am passionate about nature, adventures and good coffee.
-
-:mailbox: Talk to me: gabschlemper@gmail.com
+Talk to me: gabschlemper@gmail.com
